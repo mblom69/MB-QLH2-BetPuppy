@@ -166,6 +166,10 @@ module.exports = {
             selector: '//*[text()="Minutes"]',
             locateStrategy: 'xpath'
         },
+        sendWagerButton:{
+            selector: '(//*[@class="btn btn-primary"])[1]',
+            locateStrategy: 'xpath'
+        },
 
         googleSignInButton: '[data-provider-id="google.com"]',
         emailSignInButton: '[data-provider-id="password"]',
